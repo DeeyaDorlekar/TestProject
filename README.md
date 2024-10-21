@@ -1,6 +1,6 @@
 function getRandomNumber() {
     // Generate a random number between 1 and 100
-    const randomNumber = Math.floor(Math.random() * 1000) + 1;
+    const randomNumber = Math.floor(Math.random() * 100) + 1;
     
     // Check if the number is even or odd
     if (randomNumber % 2 === 0) {
